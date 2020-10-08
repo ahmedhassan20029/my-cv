@@ -1,0 +1,24 @@
+/*file global*/
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(../../font/OpenSans.ttf);
+    font-family: 'OpenSans';
+}
+@font-face {
+    src: url(../../font/Raleway-Regular.ttf);
+    font-family: 'Raleway-Regular';
+}
+%container {
+    width: 860px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    background: #333333;
+    font-family: 'Raleway-Regular';
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/*file global*/

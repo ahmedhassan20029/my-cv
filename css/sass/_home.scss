@@ -1,0 +1,65 @@
+/* start style home*/
+.page {
+    @extend %container;
+    height: 900px;
+    margin-top: 25px;
+    .cv {
+        display: flex;
+        .personal {
+            width: 280px;
+            background: #db4453;
+            .my-img {
+                text-align: center;
+                margin-top: 15px;
+                img {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    border: 3px solid #fff;
+                }
+            }
+            .my-data {
+                h4 {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #fff;
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+            }
+            .sela {
+                display: flex;
+                margin-left: 20px;
+                color: #fff;
+                div:nth-of-type(1) {
+                    margin-right: 10px;
+                    img {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+                div:nth-of-type(2) {
+                    p:nth-of-type(1) {
+                        font-size: 12px;
+                        font-weight: bold;
+                        margin: 0;
+                    }
+                    p:nth-of-type(2) {
+                        margin-top: 5px;
+                        font-size: 12px;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .info {
+            background: #fff;
+            width: 600px;
+        }
+    }
+}

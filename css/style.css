@@ -1,0 +1,88 @@
+/*file global*/
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../../font/OpenSans.ttf);
+  font-family: "OpenSans";
+}
+@font-face {
+  src: url(../../font/Raleway-Regular.ttf);
+  font-family: "Raleway-Regular";
+}
+.page {
+  width: 860px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  background: #333333;
+  font-family: "Raleway-Regular";
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+/*file global*/
+/* start style home*/
+.page {
+  height: 900px;
+  margin-top: 25px;
+}
+.page .cv {
+  display: flex;
+}
+.page .cv .personal {
+  width: 280px;
+  background: #db4453;
+}
+.page .cv .personal .my-img {
+  text-align: center;
+  margin-top: 15px;
+}
+.page .cv .personal .my-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.page .cv .personal .my-data h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.page .cv .personal .sela {
+  display: flex;
+  margin-left: 20px;
+  color: #fff;
+}
+.page .cv .personal .sela div:nth-of-type(1) {
+  margin-right: 10px;
+}
+.page .cv .personal .sela div:nth-of-type(1) img {
+  width: 15px;
+  height: 15px;
+}
+.page .cv .personal .sela div:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+}
+.page .cv .personal .sela div:nth-of-type(2) p:nth-of-type(2) {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.page .cv .personal .sela div:nth-of-type(2) p:nth-of-type(2) a {
+  color: #fff;
+}
+.page .cv .info {
+  background: #fff;
+  width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */
