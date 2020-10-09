@@ -84,5 +84,80 @@ body {
   background: #fff;
   width: 600px;
 }
+.page .cv .info .summery {
+  color: #383a3a;
+  margin-left: 15px;
+}
+.page .cv .info .summery::after {
+  content: "";
+  display: block;
+  width: 97%;
+  height: 2px;
+  background: #868787;
+  margin-top: 5px;
+}
+.page .cv .info .summery h1 {
+  font-family: "OpenSans";
+  margin: 0;
+}
+.page .cv .info .summery p {
+  margin: 0;
+}
+.page .cv .info .education {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.page .cv .info .education::after {
+  content: "";
+  display: block;
+  width: 97%;
+  height: 2px;
+  background: #868787;
+  margin-top: 5px;
+}
+.page .cv .info .education > div:nth-of-type(1) {
+  display: flex;
+  font-family: "OpenSans";
+  color: #383a3a;
+}
+.page .cv .info .education > div:nth-of-type(1) img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #868787;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.page .cv .info .education > div:nth-of-type(1) h2 {
+  margin: 5px;
+  text-transform: uppercase;
+}
+.page .cv .info .education .path {
+  display: flex;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+.page .cv .info .education .path img {
+  width: 40;
+  height: 40px;
+}
+.page .cv .info .education .path span {
+  font-size: 9px;
+  margin-top: 28px;
+  margin-left: 5px;
+}
+.page .cv .info .education .path .sor {
+  flex: 1;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.page .cv .info .education .path .sor p {
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0;
+}
+.page .cv .info .education .path .sor p:nth-of-type(2) {
+  color: #db4453;
+}
 
 /*# sourceMappingURL=style.css.map */

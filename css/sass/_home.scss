@@ -60,6 +60,81 @@
         .info {
             background: #fff;
             width: 600px;
+            .summery {
+                color: #383a3a;
+                margin-left: 15px;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 97%;
+                    height: 2px;
+                    background: #868787;
+                    margin-top: 5px;
+                }
+                h1 {
+                    font-family: 'OpenSans';
+                    margin: 0;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+            .education {
+                margin-left: 15px;
+                margin-top: 15px;
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 97%;
+                    height: 2px;
+                    background: #868787;
+                    margin-top: 5px;
+                }
+                > div:nth-of-type(1) {
+                    display: flex;
+                    font-family: 'OpenSans';
+                    color: #383a3a;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border: 2px solid #868787;
+                        border-radius: 50%;
+                        padding: 5px;
+                        margin-right: 10px;
+                    }
+                    h2 {
+                        margin: 5px;
+                        text-transform: uppercase;
+                    }
+                }
+                .path {
+                    display: flex;
+                    margin-left: 18px;
+                    margin-top: 5px;
+                    img {
+                        width: 40;
+                        height: 40px;
+                    }
+                    span {
+                        font-size: 9px;
+                        margin-top: 28px;
+                        margin-left: 5px;
+                    }
+                    .sor {
+                        flex: 1;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                        p {
+                           font-weight: bold;
+                           font-size: 11px;
+                           margin: 0;
+                        }
+                        p:nth-of-type(2) {
+                            color: #db4453;
+                        }
+                    }
+                }
+            }
         }
     }
 }
