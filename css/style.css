@@ -206,6 +206,7 @@ body {
 .page .cv .info .lite .toor .skills .pot ul li {
   list-style: none;
   margin-bottom: 5px;
+  font-family: "OpenSans";
 }
 .page .cv .info .lite .toor .skills .pot div:nth-child(3) {
   margin-top: 10px;
