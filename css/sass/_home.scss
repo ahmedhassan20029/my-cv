@@ -2,15 +2,18 @@
 .page {
     @extend %container;
     height: 900px;
-    margin-top: 25px;
+
     .cv {
         display: flex;
+
         .personal {
             width: 280px;
             background: #db4453;
+
             .my-img {
                 text-align: center;
                 margin-top: 15px;
+
                 img {
                     width: 150px;
                     height: 150px;
@@ -18,6 +21,7 @@
                     border: 3px solid #fff;
                 }
             }
+
             .my-data {
                 h4 {
                     font-size: 14px;
@@ -29,26 +33,32 @@
                     letter-spacing: 2px;
                 }
             }
+
             .sela {
                 display: flex;
                 margin-left: 20px;
                 color: #fff;
+
                 div:nth-of-type(1) {
                     margin-right: 10px;
+
                     img {
                         width: 15px;
                         height: 15px;
                     }
                 }
+
                 div:nth-of-type(2) {
                     p:nth-of-type(1) {
                         font-size: 12px;
                         font-weight: bold;
                         margin: 0;
                     }
+
                     p:nth-of-type(2) {
                         margin-top: 5px;
                         font-size: 12px;
+
                         a {
                             color: #fff;
                         }
@@ -60,9 +70,11 @@
         .info {
             background: #fff;
             width: 600px;
+
             .summery {
                 color: #383a3a;
                 margin-left: 15px;
+
                 &::after {
                     content: '';
                     display: block;
@@ -71,17 +83,21 @@
                     background: #868787;
                     margin-top: 5px;
                 }
+
                 h1 {
                     font-family: 'OpenSans';
                     margin: 0;
                 }
+
                 p {
                     margin: 0;
                 }
             }
+
             .education {
                 margin-left: 15px;
                 margin-top: 15px;
+
                 &::after {
                     content: '';
                     display: block;
@@ -90,10 +106,12 @@
                     background: #868787;
                     margin-top: 5px;
                 }
-                > div:nth-of-type(1) {
+
+                >div:nth-of-type(1) {
                     display: flex;
                     font-family: 'OpenSans';
                     color: #383a3a;
+
                     img {
                         width: 50px;
                         height: 50px;
@@ -102,36 +120,316 @@
                         padding: 5px;
                         margin-right: 10px;
                     }
+
                     h2 {
                         margin: 5px;
                         text-transform: uppercase;
                     }
                 }
+
                 .path {
                     display: flex;
                     margin-left: 18px;
                     margin-top: 5px;
+
                     img {
                         width: 40;
                         height: 40px;
                     }
+
                     span {
                         font-size: 9px;
                         margin-top: 28px;
                         margin-left: 5px;
                     }
+
                     .sor {
                         flex: 1;
                         margin-top: 15px;
                         margin-left: 15px;
+
                         p {
-                           font-weight: bold;
-                           font-size: 11px;
-                           margin: 0;
+                            font-weight: bold;
+                            font-size: 11px;
+                            margin: 0;
                         }
+
                         p:nth-of-type(2) {
                             color: #db4453;
                         }
+                    }
+                }
+            }
+
+            /*start skills*/
+            .lite {
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 95%;
+                    height: 2px;
+                    background: #868787;
+                    margin-top: 5px;
+                    margin-left: 15px;
+                }
+
+                .toor {
+                    display: flex;
+                    margin-left: 15px;
+                    margin-top: 15px;
+
+                    .skills {
+                        font-family: 'OpenSans';
+                        color: #383a3a;
+                        flex: 1;
+
+                        >div:nth-child(1) {
+                            display: flex;
+
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                border: 2px solid #868787;
+                                border-radius: 50%;
+                                padding: 5px;
+                                margin-right: 10px;
+                            }
+
+                            h2 {
+                                margin: 5px;
+                                text-transform: uppercase;
+                            }
+                        }
+
+                        .pot {
+                            display: flex;
+                            margin-top: 5px;
+                            margin-left: 15px;
+
+                            ul {
+                                padding: 0;
+                                margin: 3px;
+                                font-size: 14px;
+
+                                li {
+                                    list-style: none;
+                                    margin-bottom: 5px;
+                                }
+                            }
+
+                            div:nth-child(3) {
+                                margin-top: 10px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+
+                    .cours {
+                        font-family: 'OpenSans';
+                        color: #383a3a;
+                        flex: 1;
+
+                        >div:nth-child(1) {
+                            display: flex;
+
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                border: 2px solid #868787;
+                                border-radius: 50%;
+                                padding: 5px;
+                                margin-right: 5px;
+                            }
+
+                            h2 {
+                                margin: 14px 0px;
+                                text-transform: uppercase;
+                                font-size: 16px;
+                                letter-spacing: .5px;
+                            }
+                        }
+
+                        .part {
+                            display: flex;
+                            margin-left: 18px;
+                            margin-top: 5px;
+
+                            img {
+                                width: 40;
+                                height: 40px;
+                            }
+
+                            span {
+                                font-size: 9px;
+                                margin-top: 28px;
+                                margin-left: 2px;
+                                width: 65px;
+                            }
+
+                            .prgraph {
+                                flex: 1;
+                                margin-top: 15px;
+                                margin-left: 15px;
+
+                                p {
+                                    font-weight: bold;
+                                    font-size: 11px;
+                                    margin: 0;
+                                }
+
+                                p:nth-of-type(2) {
+                                    color: #db4453;
+                                    font-weight: normal;
+                                    font-size: 9px;
+                                }
+
+                                p:nth-of-type(3) {
+                                    a {
+                                        color: #db4453;
+                                    }
+                                }
+                            }
+
+                        }
+
+                        .Language {
+                            >div:nth-child(1) {
+                                display: flex;
+
+                                img {
+                                    width: 50px;
+                                    height: 50px;
+                                    border: 2px solid #868787;
+                                    border-radius: 50%;
+                                    padding: 5px;
+                                    margin-right: 10px;
+                                }
+
+                                h2 {
+                                    margin: 5px;
+                                    text-transform: uppercase;
+                                }
+                            }
+
+                            .pot {
+                                display: flex;
+
+                                div:nth-child(1) {
+                                    margin-left: 20px;
+                                    margin-top: 10px;
+
+                                    img {
+                                        height: 75px;
+                                    }
+                                }
+
+                                div:nth-child(2) {
+                                    margin-top: 10px;
+                                    margin-left: 10px;
+
+                                    p {
+                                        margin: 0;
+                                        font-size: 16px;
+                                    }
+
+                                    span {
+                                        margin: 0;
+                                        font-size: 12px;
+                                        color: #db4453;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hobbies {
+                margin-left: 15px;
+                margin-top: 15px;
+                color: #383a3a;
+                font-family: 'OpenSans';
+                font-weight: bold;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 97%;
+                    height: 2px;
+                    background: #868787;
+                    margin-top: 5px;
+                }
+
+                >div:nth-child(1) {
+                    display: flex;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border: 2px solid #868787;
+                        border-radius: 50%;
+                        padding: 5px;
+                        margin-right: 10px;
+                    }
+
+                    h2 {
+                        margin: 5px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .int {
+                    display: flex;
+
+                    div:nth-child(1) {
+                        margin-left: 20px;
+                        margin-top: 10px;
+
+                        img {
+                            height: 75px;
+                        }
+                    }
+
+                    div:nth-child(2) {
+                        margin-top: 10px;
+                        margin-left: 10px;
+
+                        p {
+                            margin: 0;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .refe {
+                margin-left: 15px;
+                margin-top: 15px;
+                color: #383a3a;
+                font-family: 'OpenSans';
+                font-weight: bold;
+
+                >div:nth-child(1) {
+                    display: flex;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border: 2px solid #868787;
+                        border-radius: 50%;
+                        padding: 5px;
+                        margin-right: 10px;
+                    }
+
+                    h2 {
+                        margin: 5px;
+                        text-transform: uppercase;
+                    }
+                }
+                .ava {
+                    p {
+                        color: #db4453;
+                        margin: 0 0 20px 65px;
                     }
                 }
             }

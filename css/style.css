@@ -28,7 +28,6 @@ body {
 /* start style home*/
 .page {
   height: 900px;
-  margin-top: 25px;
 }
 .page .cv {
   display: flex;
@@ -83,6 +82,7 @@ body {
 .page .cv .info {
   background: #fff;
   width: 600px;
+  /*start skills*/
 }
 .page .cv .info .summery {
   color: #383a3a;
@@ -158,6 +158,225 @@ body {
 }
 .page .cv .info .education .path .sor p:nth-of-type(2) {
   color: #db4453;
+}
+.page .cv .info .lite::after {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 2px;
+  background: #868787;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.page .cv .info .lite .toor {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.page .cv .info .lite .toor .skills {
+  font-family: "OpenSans";
+  color: #383a3a;
+  flex: 1;
+}
+.page .cv .info .lite .toor .skills > div:nth-child(1) {
+  display: flex;
+}
+.page .cv .info .lite .toor .skills > div:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #868787;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.page .cv .info .lite .toor .skills > div:nth-child(1) h2 {
+  margin: 5px;
+  text-transform: uppercase;
+}
+.page .cv .info .lite .toor .skills .pot {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.page .cv .info .lite .toor .skills .pot ul {
+  padding: 0;
+  margin: 3px;
+  font-size: 14px;
+}
+.page .cv .info .lite .toor .skills .pot ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.page .cv .info .lite .toor .skills .pot div:nth-child(3) {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.page .cv .info .lite .toor .cours {
+  font-family: "OpenSans";
+  color: #383a3a;
+  flex: 1;
+}
+.page .cv .info .lite .toor .cours > div:nth-child(1) {
+  display: flex;
+}
+.page .cv .info .lite .toor .cours > div:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #868787;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 5px;
+}
+.page .cv .info .lite .toor .cours > div:nth-child(1) h2 {
+  margin: 14px 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.page .cv .info .lite .toor .cours .part {
+  display: flex;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+.page .cv .info .lite .toor .cours .part img {
+  width: 40;
+  height: 40px;
+}
+.page .cv .info .lite .toor .cours .part span {
+  font-size: 9px;
+  margin-top: 28px;
+  margin-left: 2px;
+  width: 65px;
+}
+.page .cv .info .lite .toor .cours .part .prgraph {
+  flex: 1;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.page .cv .info .lite .toor .cours .part .prgraph p {
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0;
+}
+.page .cv .info .lite .toor .cours .part .prgraph p:nth-of-type(2) {
+  color: #db4453;
+  font-weight: normal;
+  font-size: 9px;
+}
+.page .cv .info .lite .toor .cours .part .prgraph p:nth-of-type(3) a {
+  color: #db4453;
+}
+.page .cv .info .lite .toor .cours .Language > div:nth-child(1) {
+  display: flex;
+}
+.page .cv .info .lite .toor .cours .Language > div:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #868787;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.page .cv .info .lite .toor .cours .Language > div:nth-child(1) h2 {
+  margin: 5px;
+  text-transform: uppercase;
+}
+.page .cv .info .lite .toor .cours .Language .pot {
+  display: flex;
+}
+.page .cv .info .lite .toor .cours .Language .pot div:nth-child(1) {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.page .cv .info .lite .toor .cours .Language .pot div:nth-child(1) img {
+  height: 75px;
+}
+.page .cv .info .lite .toor .cours .Language .pot div:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.page .cv .info .lite .toor .cours .Language .pot div:nth-child(2) p {
+  margin: 0;
+  font-size: 16px;
+}
+.page .cv .info .lite .toor .cours .Language .pot div:nth-child(2) span {
+  margin: 0;
+  font-size: 12px;
+  color: #db4453;
+}
+.page .cv .info .hobbies {
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #383a3a;
+  font-family: "OpenSans";
+  font-weight: bold;
+}
+.page .cv .info .hobbies::after {
+  content: "";
+  display: block;
+  width: 97%;
+  height: 2px;
+  background: #868787;
+  margin-top: 5px;
+}
+.page .cv .info .hobbies > div:nth-child(1) {
+  display: flex;
+}
+.page .cv .info .hobbies > div:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #868787;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.page .cv .info .hobbies > div:nth-child(1) h2 {
+  margin: 5px;
+  text-transform: uppercase;
+}
+.page .cv .info .hobbies .int {
+  display: flex;
+}
+.page .cv .info .hobbies .int div:nth-child(1) {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.page .cv .info .hobbies .int div:nth-child(1) img {
+  height: 75px;
+}
+.page .cv .info .hobbies .int div:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.page .cv .info .hobbies .int div:nth-child(2) p {
+  margin: 0;
+  font-size: 14px;
+}
+.page .cv .info .refe {
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #383a3a;
+  font-family: "OpenSans";
+  font-weight: bold;
+}
+.page .cv .info .refe > div:nth-child(1) {
+  display: flex;
+}
+.page .cv .info .refe > div:nth-child(1) img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #868787;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+.page .cv .info .refe > div:nth-child(1) h2 {
+  margin: 5px;
+  text-transform: uppercase;
+}
+.page .cv .info .refe .ava p {
+  color: #db4453;
+  margin: 0 0 20px 65px;
 }
 
 /*# sourceMappingURL=style.css.map */
